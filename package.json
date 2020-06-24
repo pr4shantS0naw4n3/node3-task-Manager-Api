@@ -2,10 +2,10 @@
   "name": "task-manager",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "env-cmd -f ./config/dev.env supervisor src/index.js"
+    "start": "node index.js",
+    "dev": "env-cmd -f ./config/dev.env supervisor index.js"
   },
   "keywords": [],
   "author": "",
